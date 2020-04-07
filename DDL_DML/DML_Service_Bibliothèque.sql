@@ -35,4 +35,5 @@ VALUES
 	(1, STR_TO_DATE("07 January 2014", "%d %M %Y"), STR_TO_DATE("13 January 2014", "%d %M %Y"), 1, 4),
 	(2, STR_TO_DATE("07 January 2017", "%d %M %Y"), STR_TO_DATE("26 June 2018", "%d %M %Y"), 2, 3),
 	(3, STR_TO_DATE("27 July 2018", "%d %M %Y"), STR_TO_DATE("27 August 2018", "%d %M %Y"), 3, 3),
-	(4, STR_TO_DATE("27 July 2018", "%d %M %Y"), STR_TO_DATE("27 August 2018", "%d %M %Y"), 3, 1);
+	(4, STR_TO_DATE("27 July 2018", "%d %M %Y"), STR_TO_DATE("27 August 2018", "%d %M %Y"), 3, 1),
+	(5, STR_TO_DATE("07 March 2019", "%d %M %Y"), NULL, 1, 2);
