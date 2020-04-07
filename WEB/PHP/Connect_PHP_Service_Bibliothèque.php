@@ -11,11 +11,11 @@
 			$conn = new PDO($dsn, USERNAME, PASSWORD);
 			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-			echo "Connexion réussit"."<br>";
+			echo ("Connexion réussit"."<br>");
 		}
 		catch(PDOException $e)
 		{
-			echo "Connexion échouée : ".$e->getMessage()."<br>";
+			echo ("Connexion échouée : ".$e->getMessage()."<br>");
 		}
 
 		return $conn;
