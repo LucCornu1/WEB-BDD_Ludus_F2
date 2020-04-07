@@ -26,17 +26,17 @@
 
 			// TABLEAU
 
-			echo "<table><tr>
+			echo ("<table><tr>
 					<th>Numéro d'emprunt</th>
 					<th>date de début de l'emprunt</th>
 					<th>date de fin de l'emprunt</th>
 					<th>numéro de l'employé</th>
 					<th>numéro de l'exemplaire</th>
-				</tr>";
+				</tr>");
 
 			foreach($maConn->query($req) as $row)
 			{
-				echo "
+				echo ("
 						<tr>
 							<td>".$row["idEmprunt"]."</td>
 							<td>".$row["dateDebut"]."</td>
@@ -44,10 +44,10 @@
 							<td>".$row["idEmploye"]."</td>
 							<td>".$row["idExemplaire"]."</td>
 						</tr>
-					";
+					");
 			}
 
-			echo "</table>"."<br>"."<br>";
+			echo ("</table>"."<br>"."<br>");
 
 			// FIN TABLEAU
 		?>
