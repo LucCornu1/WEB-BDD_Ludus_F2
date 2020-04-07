@@ -2,7 +2,7 @@
 	define('SERVERNAME', "localhost");
 	define('USERNAME', "root");
 	define('PASSWORD', "");
-	define('DBNAME', "Service_Bibliothèque");
+	define('DBNAME', "Service_Bibliotheque");
 
 	function ConnectBDD()
 	{
